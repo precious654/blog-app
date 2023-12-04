@@ -15,7 +15,7 @@ function Section() {
 let data = articles.map( (item) => <Card item={item} /> );
 
   return (
-    <div className="flex justify-center items-center flex-col mt-3">
+    <div className="flex justify-center gap-12 items-center flex-col mt-12">
       {data}
     </div>
   )
